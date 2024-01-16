@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [ "3.8", "3.9", "3.10" ]
+        python-version: [ "3.9", "3.10", "3.11" ]
 
     steps:
       - uses: actions/checkout@v3.0.2
@@ -28,8 +28,7 @@ jobs:
 
       - name: Check code quality with flake8
         run: poetry run tox -e flake8
-#       - name: Check package metadata with Pyroma
-#         run: poetry run tox -e pyroma
+
       - name: Check static typing with MyPy
         run: poetry run tox -e mypy
 
