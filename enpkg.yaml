@@ -1,0 +1,91 @@
+---
+graphs:
+  - dataset: MSV000093464_batch_01
+    zenodo:
+      - 10285076
+  - dataset: MSV000093464_batch_02
+    zenodo:
+      - 10285383
+  - dataset: MSV000093464_batch_03
+    zenodo:
+      - 10285452
+  - dataset: MSV000093464_batch_04
+    zenodo:
+      - 10285516
+  - dataset: PF1600_VGF159
+    zenodo:
+      - 10282053
+  - dataset: PF1600_VGF158
+    zenodo:
+      - 10282073
+  - dataset: PF1600_VGF157
+    zenodo:
+      - 10282003
+  - dataset: PF1600_VGF156
+    zenodo:
+      - 10282088
+  - dataset: PF1600_VGF155
+    zenodo:
+      - 10282099
+  - dataset: PF1600_VGF154
+    zenodo:
+      - 10282116
+  - dataset: PF1600_VGF153
+    zenodo:
+      - 10282138
+  - dataset: PF1600_VGF152
+    zenodo:
+      - 10282126
+  - dataset: PF1600_VGF151
+    zenodo:
+      - 10282147
+  - dataset: PF1600_VGF150
+    zenodo:
+      - 10282160
+  - dataset: PF1600_VGF147
+    zenodo:
+      - 10284405
+  - dataset: PF1600_VGF146
+    zenodo:
+      - 10284408
+  - dataset: PF1600_VGF145
+    zenodo:
+      - 10284409
+  - dataset: PF1600_VGF144
+    zenodo:
+      - 10284412
+  - dataset: PF1600_VGF143
+    zenodo:
+      - 10284413
+  - dataset: PF1600_VGF142
+    zenodo:
+      - 10284416
+  - dataset: PF1600_VGF141
+    zenodo:
+      - 10284417
+  - dataset: PF1600_VGF140
+    zenodo:
+      - 10284422
+  - dataset: PF1600_VGF139
+    zenodo:
+      - 10284425
+  - dataset: PF1600_VGF138
+    zenodo:
+      - 10284426
+  - dataset: WALTHERIA
+    zenodo:
+      - 8038719
+  - dataset: CHEMBL
+    zenodo:
+      - 7953284
+  - dataset: IMAGE_LINK
+    update:
+      - ${ENPKG_DIR}/common/data/config/add_foaf_depiction_of_smiles.sparql
+  - dataset: SCHEMA
+    file:
+      - ${ENPKG_DIR}/common/data/config/enpkg_people.ttl
+      - ${ENPKG_DIR}/common/data/config/schema/enpkg_schema.ttl
+      - ${ENPKG_DIR}/common/data/config/schema/enpkg_module_schema.ttl
+  - dataset: SETUP
+    update:
+      - ${ENPKG_DIR}/common/data/config/setup_final.sparql
