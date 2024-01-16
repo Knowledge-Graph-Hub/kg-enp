@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "kg-enp"
-version = "0.0.0"
-description = "kg-enp"
+version = "0.0.1"
+description = "a knowledge graph for experimental natural products, based off ENPKG"
 authors = ["J. Harry Caufield <jhc@lbl.gov>"]
 license = "BSD-3"
 readme = "README.md"
