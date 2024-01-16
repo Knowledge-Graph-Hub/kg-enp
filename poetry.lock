@@ -477,6 +477,24 @@ files = [
 ]
 
 [[package]]
+name = "downloaders"
+version = "1.0.20"
+description = "Python package to handle download of multiple types of files."
+optional = false
+python-versions = "*"
+files = [
+    {file = "downloaders-1.0.20.tar.gz", hash = "sha256:8ed2f3c5d95296ee59d004421c735fff9c46b89ef51ff5f4e861a10636ecb960"},
+]
+
+[package.dependencies]
+pandas = "*"
+requests = "*"
+tqdm = "*"
+
+[package.extras]
+test = ["pytest", "validate_version_code"]
+
+[[package]]
 name = "editorconfig"
 version = "0.12.3"
 description = "EditorConfig File Locator and Interpreter for Python"
@@ -3977,4 +3995,4 @@ docs = []
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "e0300dab8b9f5ab4db7dcea00115885b10e8881a08cc9f91f1222288a04c8cf4"
+content-hash = "5b169d42cb58a45e925eba293a38c7703d7f9cc4d1eacc98131a5a851ce70074"
