@@ -1,0 +1,52 @@
+## This file is a list of things to be downloaded using the command:
+#   run.py download
+
+# To add a new item to be download, add a block like this - must have 'url',
+# 'local_name' is optional, use to avoid name collisions
+
+#  #
+#  # Description of source
+#  #
+#  -
+#    # brief comment about file, and optionally a local_name:
+#    url: http://curefordisease.org/some_data.txt
+#    local_name: some_data_more_chars_prevent_name_collision.pdf
+#
+#  For downloading from S3 buckets, see here for information about what URL to use:
+#  https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html#access-bucket-intro
+#  Amazon S3 virtual hosted style URLs follow the format shown below:
+#  https://bucket-name.s3.Region.amazonaws.com/key_name
+#
+---
+
+#
+# **** ROBOT ****
+#
+-
+  url: https://github.com/ontodev/robot/releases/download/v1.8.3/robot.jar
+  local_name: robot.jar
+-
+  url: https://raw.githubusercontent.com/ontodev/robot/master/bin/robot 
+  local_name: robot
+
+# **** Ontology files ****
+#
+# ENVO
+#
+-
+  url: http://purl.obolibrary.org/obo/envo.json
+  local_name: envo.json
+#
+# HP
+#
+-
+  url: http://purl.obolibrary.org/obo/hp.json
+  local_name: hp.json
+
+# **** Data sources ****
+# ATC
+# The Anatomical Therapeutic Chemical Classification for drugs
+# Primarily for establishing hierarchical relationships of DrugCentral entries
+-
+  url: https://data.bioontology.org/ontologies/ATC/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
+  local_name: atc.csv.gz

@@ -1,0 +1,20 @@
+{
+  "template": "https://github.com/Knowledge-Graph-Hub/kg-cookiecutter",
+  "commit": "0a095ac3c43580ccaa3017fa8eebf1fd6b907230",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "kg-enp",
+      "__project_slug": "kg_enp",
+      "project_description": "KG-ENP: a knowledge graph for experimental natural products, based off ENPKG",
+      "min_python_version": "3.9",
+      "full_name": "J. Harry Caufield",
+      "email": "jhc@lbl.gov",
+      "__author": "J. Harry Caufield <jhc@lbl.gov>",
+      "license": "BSD-3",
+      "github_token_for_doc_deployment": "GH_TOKEN",
+      "_template": "https://github.com/Knowledge-Graph-Hub/kg-cookiecutter"
+    }
+  },
+  "directory": null
+}
