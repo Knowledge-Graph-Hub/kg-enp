@@ -2,8 +2,8 @@
 
 import os
 
-import sh  # type: ignore
-from sh import chmod  # type: ignore
+import sh
+from sh import chmod
 
 from post_setup.post_setup import robot_setup
 

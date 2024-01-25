@@ -5,9 +5,11 @@ from typing import List, Optional
 
 from kg_enp.transform_utils.ontology import OntologyTransform
 from kg_enp.transform_utils.ontology.ontology_transform import ONTOLOGIES
+from kg_enp.transform_utils.chembl_data import CHEMBLDataTransform
 
 DATA_SOURCES = {
     "OntologyTransform": OntologyTransform,
+    "CHEMBLTransform": CHEMBLDataTransform
 }
 
 
