@@ -8,7 +8,7 @@
 
 # **** ENPKG Schema only ****
 # Other files are downloaded when the call to the download function is made
-#
+
 -
   url: https://zenodo.org/records/7824642/files/enpkg_schema.ttl
   local_name: enpkg_schema.ttl

@@ -12,11 +12,13 @@ click = "*"
 importlib-metadata = "^4.8.0"
 kghub-downloader = "*"
 kgx = ">=2.2.5"
-koza = "*"
+koza = ">=0.5.3"
 biolink-model = "*"
 requests-cache = "*"
 linkml-model = "^1.4.0"
 downloaders = "^1.0.20"
+sh = "^2.0.6"
+rdflib = "^7.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = {version = ">=7.1.2"}
